@@ -23,7 +23,7 @@ class network:
             a = self.activation_f(np.dot(w, a)+b)
         return a
 
-    def forwardprop(self, a):
+    def forwardprop(self, a): # feedforward and return midle activationz and midle z
         activations = [a]
         z = []
         for w, b in zip(self.weights, self.biases):
