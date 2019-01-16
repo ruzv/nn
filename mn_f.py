@@ -1,7 +1,7 @@
 import numpy as np
 from mnist import MNIST
 
-mndata = MNIST("data/mn_d")
+mndata = MNIST("data/mn_f")
 
 def int_to_nparray(n):
     v = np.zeros((10, 1))
