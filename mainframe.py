@@ -1,7 +1,7 @@
 from importlib import reload
 import network as n
 import image2 as i
-import mn as d
+import mn_d as d
 
 
 image = i.image(n, d)

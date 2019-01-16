@@ -1,5 +1,5 @@
 import network as n
-import mn as d
+import mn_d as d
 
 net = n.network([784, 10, 10], n.sigmoid_f, n.cross_entropy_f)
 
