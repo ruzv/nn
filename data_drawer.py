@@ -2,7 +2,7 @@ import pygame
 import mn_loader as mn
 
 d = mn.data()
-d.load_d_testing()
+d.load_f_testing()
 
 class data_drawer:
 
@@ -35,5 +35,5 @@ class data_drawer:
             self.even_handler()
 
 
-d_draw = data_drawer(d.d_testing_data)
+d_draw = data_drawer(d.f_testing_data)
 d_draw.start()

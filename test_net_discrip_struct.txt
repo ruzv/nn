@@ -1,0 +1,1 @@
+data;neur_ly1;neur_ly2;actf_1;actf_2;actf_3;cost_f;reg;eta;

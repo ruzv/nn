@@ -1,8 +1,11 @@
 from importlib import reload
 import network as n
 import image2 as i
-import mn_d as d
+import mn_loader as data
 
+d = data.data()
+d.load_d_testing()
+d.load_d_training()
 
 image = i.image(n, d)
 
