@@ -3,7 +3,9 @@ import random
 
 
 class network:
+    # actf in layers ar going
 
+    # inits the nets structure layers actfs, reg, cost
     def __init__(self, layers, af, cf):
         self.layers = layers
         # todo reduce
@@ -60,6 +62,7 @@ class network:
             self.weights[i] -= (eta/len(minbatch))*gradient_w[i]
             self.biases[i] -= (eta/len(minbatch))*gradient_b[i]
 
+    # sets up the training and trains
     def stgd(self, data, epochs, minbatch_size, eta, testing_data, evaluate=False, eval_size=0):
         print("training network {0} for {1} epochs".format(self.layers, epochs))
         for e in range(epochs):

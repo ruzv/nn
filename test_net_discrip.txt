@@ -1,1 +1,4 @@
 10;-;sig;sig;-;quadratic;-;3;
+10;20;sig;sig;sig;entropy;-;3;
+30;40;sig;sig;sig;quadratic;-;3;
+30;40;sig;sig;-;quadratic;-;3;
